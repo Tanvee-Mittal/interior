@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body{
+    background-image: url(images/visitus.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+}
+
+.nav-bar{
+    height: fit-content;
+    width: 100%;
+    
+  }
+li{
+    display:inline-flex;
+    align-items: center;
+    align-content: center;
+    padding: 30px;
+    margin: 30px;
+    margin-top: 1.3em;
+
+}
+a{
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+    display:inline;
+    text-align:center;
+    width:1px; /* fixed width */
+    text-decoration:none;
+    color: #214252;
+}
+.nav-bar a:hover{
+    /*background-color:#14274e;*/
+
+    transform: scale(1.2)
+  }
+  .button ul{
+      display: inline-block;
+      padding: 0 0 0 0;
+      text-align: center;
+      margin: 10px 20px 20px 250px;
+      justify-content: center;
+      align-items: center;
+  }
+.button li{
+    display: inline-block;
+    text-align: center;
+    padding:0 0 0 0;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.button button{
+    margin: auto;
+    
+    display: inline-block;
+    text-align: center;
+    padding:  10px 30px;
+    text-decoration: none;
+    margin-top: 25em;
+   justify-content: center;
+   align-items: center;
+    background-color: transparent;
+    font-size: 1.6em;
+    font-family: 'Montserrat', sans-serif; 
+    box-shadow: 2px 2px 2px 2px black;
+} 
+.button button:hover{
+    background-color: #bbbbbb;
+    transform: scale(0.9);
+}

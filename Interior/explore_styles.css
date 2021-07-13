@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+body{
+   /* background-image: url(images/Explorebg.jpg);*/
+    background-color: white;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-size: 100% 100%;
+    
+}
+
+
+.nav-bar li{
+    display:inline-block;
+    padding: 20px;
+    left:0%;
+    margin: 0 4em;
+    margin-top: 1.3em;
+}
+.nav-bar a{
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    display:block;
+    text-align:center;
+    width:1px; /* fixed width */
+    text-decoration:none;
+    color: #214252;
+}
+.nav-bar a:hover{
+    /*background-color:#14274e;*/
+
+    transform: scale(1.2)
+  }
+  .main{
+      width: 100%;
+      height: 75vh;
+      background-image: url(images/fur.jpg);
+  }
+  .top-image{
+      height: fit-content;
+      width: 100%;
+  }
+  .top-image img{
+      height: 700px;
+      width: 2080px;
+  }
+  .container{
+      background-color: white;
+  }
+/**********************div 2 ***********************/
+.div2heading{
+    font-family: 'Prata', serif;
+    color: #214252;
+    margin-left: 2em;
+    margin-top: 7em;
+}
+.div2images{
+    display: inline-flex;
+    
+}
+
+
+.image1 img{
+    height: 400px;
+    width: 900px;   
+    margin: 60px 20px 10px 100px;
+}
+
+.image2 img{
+    height: 550px;
+    width: 400px;
+    margin: 0px 20px 10px 2px;
+}
+/**********************div 3 ***********************/
+.div3heading{
+    font-family: 'Prata', serif;
+    color: #214252;
+    margin-left: 2em;
+    margin-top: 15em;
+}
+.div3images li{
+    display: inline-flex;
+    margin-left: 4em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  .container h1{
+    color: grey;
+    display: inline-flex;
+    justify-content: center;
+    
+    /*font-size: 4em;*/
+    
+    font-family: 'Prata', serif;
+  }
+  .cards{
+      display: inline-flex;
+      height: fit-content;
+      
+      
+       
+  }
+  .images li{
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+   
+  }
+  .images li img{
+      height: 400px;
+      width: 400px;
+      margin: 5px;
+      padding: 5px;   
+    
+     margin-bottom: 0.7em;
+     margin-left: 4em;
+  }
+  .images li img:hover {
+      transform: scale(1.2);
+      
+  }
+  .project{
+height: fit-content;
+width: 100%;
+  }
+
+  .project-images ul{
+      display: inline-block;
+  }
+  .project-images li{
+      
+      margin: auto;
+  }
+  .project-images img{
+      height: 800px;
+      width: 1800px;
+      margin-left: 5em;
+      padding: 15px;
+  }
+
+
+
+  /******************************** footer ***********************************/
+  .footer{
+    display: inline;
+    height: fit-content;
+    width: 100%;
+   }
+ 
+   .footer li{
+     display: inline;
+      
+   }
+   .footer img {
+       display: inline;
+      
+       margin-left:24em;
+     
+       height: 100px;
+       width: 100px;
+   }
+   img:hover{
+       transform: none;
+   }
+   
+.form-nav{
+    background-color: white;
+    height: 80px;
+    width: 2050px;
+    display: inline-flex;
+    background-image: url(images/footernav.jpg);
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .form-nav .phone-no h2{
+    margin: 27px 20px 20px 90px;
+  }
+  .form-nav .phone-no h2:hover{
+    text-decoration: underline;
+  }
+  .form-nav .gmail h2{
+    margin: 27px 20px 20px 420px;
+  }
+  .form-nav .gmail h2:hover{
+    text-decoration: underline;
+  }
+  
+  .contact-bar-signup {
+    display: inline-flex;
+    margin: 10px 10px 10px 450px;   
+  }
+  .contact-bar-signup h2{
+    margin: 20px 20px 0px 0px;
+  }
+  
+  .contact-bar-signup .email{
+    width: 280px;
+    height: 30px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top:15px;
+  }
+  .email {
+    font-size: 20px;
+  }
+  .contact-bar-signup .submit{
+    margin: 7px 20px 20px 20px;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+  }
+  .contact-bar-signup .submit:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+  }
+  /****************** footer wrapper ********************/
+  .footer-wrapper{
+    display: inline-flex;
+  
+  }
+  
+  .wrapperlist1 h1{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #214252;
+  }
+  .wrapperlist1 li{
+    font-size: 24px;
+    margin-left: 1em;
+    
+  }
+  .wrapperlist1 li a{
+    text-decoration: none;
+    color: #214252;
+  }
+  .wrapperlist2 h1{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #214252;
+    margin-left: 2em;
+  }
+  .wrapperlist2 li{
+    font-size: 24px;
+    margin-left: 4em;
+    
+  }
+  .wrapperlist2 li a{
+    text-decoration: none;
+    color: #214252;
+  }
+  
+  
+  .wrapperlist3 h1{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #214252;
+    margin-left: 2em;
+  }
+  .wrapperlist3 li{
+    font-size: 24px;
+    margin-left: 4em;
+    
+  }
+  .wrapperlist3 li a{
+    text-decoration: none;
+    color: #214252;
+  }
+  
+  
+  .wrapperlist4 h1{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #214252;
+    margin-left: 2em;
+  }
+  .wrapperlist4 li{
+    font-size: 24px;
+    margin-left: 4em;
+    
+  }
+  .wrapperlist4 li a{
+    text-decoration: none;
+    color: #214252;
+  }
+  
+  .wrapperlist5 img{
+      margin-left: 43em;
+      width: 200px;
+      height: 200px;
+  }

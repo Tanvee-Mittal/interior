@@ -1,0 +1,35 @@
+body{
+    background-image: url(images/about.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+
+
+li{
+    display:inline-flex;
+    align-items: center;
+    align-content: center;
+    padding: 30px;
+    margin: 30px;
+    margin-top: 1.3em;
+
+}
+a{
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    display:inline;
+    text-align:center;
+    width:1px; /* fixed width */
+    text-decoration:none;
+    color: #214252;
+}
+.nav-bar a:hover{
+    /*background-color:#14274e;*/
+
+    transform: scale(1.2)
+  }
